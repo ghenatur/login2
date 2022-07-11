@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+    <div class="steps">
+        <div class="step step1 green">1</div>
+        <div class="branch br2"></div>
+        <div class="step step2">2</div>
+        <div class="branch br3"></div>
+        <div class="step step3">3</div>
+    </div>
+    <div class="steps-title">
+        <h5 class="step-title">ACCOUNT SETUP</h5>
+        <h5 class="step-title">SOCIAL PROFILES</h5>
+        <h5 class="step-title">PERSONAL DETAILS</h5>
+    </div>
+    <div class="homeCard">
+        <div class="slider">
+            <div class="card card1">
+                <div class="title">
+                    <h2>CREATE YOUR ACCOUNT</h2>
+                    <p>This is step 1</p>
+                </div>
+                <div class="input inp1">
+                    <input type="email" id="email" placeholder="Email">
+                    <input type="password" id="password1" placeholder="Password">
+                    <input type="password" id="password2" placeholder="Confirm Password">
+                    <p class="error"></p>
+                </div>
+                <div class="buttons">
+                    <input type="button" class="next1" value="Next">
+                </div>
+            </div>
+            <div class="card card2">
+                <div class="title">
+                    <h2>SOCIAL PROFILE</h2>
+                    <p>You presence on the social network</p>
+                </div>
+                <div class="input inp2">
+                    <input type="text" placeholder="Facebook">
+                    <input type="text" placeholder="Twitter">
+                    <input type="text" placeholder="Telegram">
+                </div>
+                <div class="buttons">
+                    <input type="button" class="previous2" value="Previous">
+                    <input type="button" class="next2" value="Next">
+                </div>
+            </div>
+            <div class="card card3">
+                <div class="title">
+                    <h2>PERSONAL DETAILS</h2>
+                    <p>We will never sell it</p>
+                </div>
+                <div class="input inp3">
+                    <input type="text" id="firstName" placeholder="First name">
+                    <input type="text" value="" id="lastName" placeholder="Last name">
+                    <input type="number" id="phone" placeholder="Phone">
+                    <input type="text" id="address" placeholder="Address">
+                    <p class="error3"></p>
+                </div>
+                <div class="buttons">
+                    <input type="button" class="previous3" value="Previous">
+                    <input type="button" id="submit" value="submit">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
